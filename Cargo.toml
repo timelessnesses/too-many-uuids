@@ -1,0 +1,15 @@
+[package]
+name = "too-many-uuids"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crossterm = "0.28.1"
+dashmap = "6.1.0"
+radix = "0.6.0"
+ratatui = "0.29.0"
+rayon = "1.10.0"
+termsize = "0.1.9"
+tui-input = "0.11.1"
+tui-textarea = "0.7.0"
+uuid = { version = "1.11.0", features = ["fast-rng", "v4", "zerocopy"] }
